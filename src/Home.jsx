@@ -5,9 +5,9 @@ import banerLogo from "../src/assets/hero.png";
 import { useLoaderData, useNavigate } from "react-router";
 import TrendingApps from "./components/TrendingApps/TrendingApps";
 
-function Home() {
-  const apps = useLoaderData();
+const Home = () => {
   const navigate = useNavigate();
+  const apps = useLoaderData();
 
   return (
     <div className="text-center mx-auto space-y-6 bg-gray-100 pt-6">
@@ -21,18 +21,24 @@ function Home() {
         </h1>
       </div>
 
-      <div className="font-news">
+      <div className="font-news text-center mx-auto max-w-2/3">
         At HERO.IO, we craft innovative apps designed to make everyday life
         simpler, smarter and move exciting. Our goal is to turn ideas into
         digital experiences that truly make an impact.
       </div>
 
       <div className="flex justify-center gap-2">
-        <div className="flex items-center  gap-1 border-2 border-gray-200 p-2 rounded-md">
+        <div
+          onClick={() => navigate("/installed")}
+          className="flex items-center  gap-1 border-2 border-gray-200 p-2 rounded-md"
+        >
           <img src={googlePlay} alt="" />
           <h2 className="font-bold">Google Play</h2>
         </div>
-        <div className="flex items-center  gap-1 border-2 border-gray-200 p-2 rounded-md">
+        <div
+          onClick={() => navigate("/apps")}
+          className="flex items-center  gap-1 border-2 border-gray-200 p-2 rounded-md"
+        >
           <img src={appStore} alt="" />
           <h2 className="font-bold">App Store</h2>
         </div>
@@ -101,6 +107,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

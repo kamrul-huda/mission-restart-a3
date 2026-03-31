@@ -100,10 +100,8 @@ const AppDetail = () => {
         </div>
 
         <div className="divider my-6"></div>
-        <div className="my-6">
-          <h1 className="text-xl sm:text-2xl font-semibold mb-2">
-            Description
-          </h1>
+        <div className="my-6 pb-6">
+          <h1 className="text-xl sm:text-2xl font-semibold">Description</h1>
           <p className="text-gray-700 text-sm sm:text-base">
             {appData.description}
           </p>

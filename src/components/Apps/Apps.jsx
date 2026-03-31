@@ -47,11 +47,11 @@ const Apps = () => {
         </div>
 
         {loading ? (
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center pb-6">
             <span className="loading loading-spinner loading-lg text-primary"></span>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pb-6">
             {filteredApps.map((app) => (
               <App key={app.id} app={app} />
             ))}
@@ -59,7 +59,7 @@ const Apps = () => {
         )}
 
         {filteredApps.length === 0 && (
-          <p className="text-gray-500 mt-10">No apps found</p>
+          <p className="text-gray-500 mt-10  pb-6">No apps found</p>
         )}
       </div>
     </div>

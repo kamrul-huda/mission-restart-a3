@@ -8,7 +8,7 @@ import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
     <div className="bg-black text-gray-300 border-t border-blue-500">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-6">
+      <div className="w-[70%] mx-auto px-4 sm:px-6 lg:px-10 py-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
           <div className="">
             <div className="text-sm sm:text-base font-bold">
@@ -29,7 +29,7 @@ const Footer = () => {
                 Our Mission
               </a>
               <a className="link link-hover text-sm sm:text-base">
-                Contact Sales 
+                Contact Sales
               </a>
             </div>
           </div>
