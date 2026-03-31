@@ -50,7 +50,7 @@ const Home = () => {
         </div>
 
         <section class="bg-gradient-to-tr from-[#4c35c2] to-[#8b5cf6] py-16 px-4">
-          <div class="max-w-6xl mx-auto text-center">
+          <div class=" w-[70%] mx-auto text-center">
             <h2 class="text-white text-3xl md:text-5xl font-bold mb-12">
               Trusted By Millions, Built For You
             </h2>
