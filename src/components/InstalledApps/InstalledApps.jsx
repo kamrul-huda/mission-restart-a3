@@ -38,7 +38,6 @@ const InstalledApps = () => {
           </p>
         </div>
 
-        {/* Sort */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2 sm:gap-0">
           <p className="font-medium">{sortedApps.length} Apps Found</p>
 
@@ -52,7 +51,6 @@ const InstalledApps = () => {
           </select>
         </div>
 
-        {/* App List */}
         <div className="space-y-4">
           {sortedApps.map((app) => (
             <div
@@ -88,7 +86,6 @@ const InstalledApps = () => {
                 </div>
               </div>
 
-              {/* Uninstall Button */}
               <button
                 onClick={() => handleUninstall(app.id, app.title)}
                 className="btn btn-success btn-sm mt-2 sm:mt-0 w-full sm:w-auto"
@@ -99,7 +96,6 @@ const InstalledApps = () => {
           ))}
         </div>
 
-        {/* Empty State */}
         {sortedApps.length === 0 && (
           <p className="text-center text-gray-500 mt-10 text-sm sm:text-base">
             No installed apps found

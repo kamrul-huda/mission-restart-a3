@@ -29,7 +29,7 @@ const Footer = () => {
                 Our Mission
               </a>
               <a className="link link-hover text-sm sm:text-base">
-                Contact Sales
+                Contact Sales 
               </a>
             </div>
           </div>
