@@ -25,7 +25,6 @@ const App = ({ app }) => {
         <h2 className="font-bold text-[#0F172A] text-start">{app.title}</h2>
 
         <div className="flex justify-between items-center">
-          {/* Download Badge */}
           <div className="flex items-center gap-1 px-2 py-1 bg-green-50 rounded-md text-green-600 font-bold text-xs">
             <Download className="w-3 h-3" />
             {new Intl.NumberFormat("en", {
@@ -33,7 +32,6 @@ const App = ({ app }) => {
             }).format(app.downloads)}
           </div>
 
-          {/* Rating Badge */}
           <div className="flex items-center gap-1 px-2 py-1 bg-orange-50 rounded-md text-orange-500 font-bold text-xs">
             <Star className="w-3 h-3 fill-current" />
             {app.ratingAvg}
