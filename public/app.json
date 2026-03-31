@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "ZenFlow Tasks",
+    "companyName": "Mindful Tech",
+    "description": "A minimalist task manager designed to reduce work anxiety.",
+    "size": 18.5,
+    "reviews": 1240,
+    "ratingAvg": 4.8,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 840 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "DataViz Pro",
+    "companyName": "Insight Analytics",
+    "description": "Transform complex spreadsheets into beautiful, interactive charts.",
+    "size": 42.0,
+    "reviews": 850,
+    "ratingAvg": 4.5,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "CryptoTracker",
+    "companyName": "Blockchain Hub",
+    "description": "Real-time tracking for over 5,000 cryptocurrencies and NFTs.",
+    "size": 28.3,
+    "reviews": 3100,
+    "ratingAvg": 4.3,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "SwiftShip",
+    "companyName": "Logistics X",
+    "description": "Manage your e-commerce shipments across multiple carriers.",
+    "size": 35.1,
+    "reviews": 420,
+    "ratingAvg": 4.1,
+    "downloads": 8500,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "CodeEditor Go",
+    "companyName": "DevTools Inc",
+    "description": "A powerful IDE for mobile development with Git integration.",
+    "size": 115.0,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "PetPal",
+    "companyName": "VetConnect",
+    "description": "Schedule vet visits and track your pet's vaccination history.",
+    "size": 22.4,
+    "reviews": 1800,
+    "ratingAvg": 4.9,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "FitSync",
+    "companyName": "Health Metrics",
+    "description": "AI-powered workout plans that adapt to your progress.",
+    "size": 64.0,
+    "reviews": 5600,
+    "ratingAvg": 4.6,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "SoundScape",
+    "companyName": "Audio Alchemy",
+    "description": "High-fidelity music streaming for audiophiles.",
+    "size": 48.2,
+    "reviews": 920,
+    "ratingAvg": 4.4,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "CookBook AI",
+    "companyName": "TastyTech",
+    "description": "Generate recipes based on the ingredients in your fridge.",
+    "size": 29.8,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "GeoLens",
+    "companyName": "MapWorks",
+    "description": "Explore the world in AR with historical facts and landmarks.",
+    "size": 150.5,
+    "reviews": 340,
+    "ratingAvg": 4.2,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "InkNotes",
+    "companyName": "Scribe Labs",
+    "description": "Handwriting recognition and smart indexing for stylus users.",
+    "size": 33.7,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "PennyWise",
+    "companyName": "Fiscal Fold",
+    "description": "Automatic expense tracking with bank-level encryption.",
+    "size": 19.9,
+    "reviews": 8900,
+    "ratingAvg": 4.8,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "SpeakEasy",
+    "companyName": "Linguist AI",
+    "description": "Real-time voice translation for over 100 languages.",
+    "size": 55.0,
+    "reviews": 4500,
+    "ratingAvg": 4.4,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "TeamSync",
+    "companyName": "Collab Corp",
+    "description": "Video conferencing with integrated whiteboards and file sharing.",
+    "size": 88.4,
+    "reviews": 12000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1495594059084-33752639b9c3?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "SleepWell",
+    "companyName": "Restful Labs",
+    "description": "Monitor sleep cycles and wake up feeling refreshed with smart alarms.",
+    "size": 26.1,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "MarketMaster",
+    "companyName": "Trade Logic",
+    "description": "Advanced stock market analysis and portfolio management.",
+    "size": 41.5,
+    "reviews": 2800,
+    "ratingAvg": 4.5,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "PixelPerfect",
+    "companyName": "Snap Design",
+    "description": "Professional photo editing with AI background removal.",
+    "size": 72.3,
+    "reviews": 15400,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "EstateExplorer",
+    "companyName": "Homestead Tech",
+    "description": "Find your dream home with detailed neighborhood data.",
+    "size": 39.0,
+    "reviews": 650,
+    "ratingAvg": 4.0,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "StudyBuddy",
+    "companyName": "EduNet",
+    "description": "Collaborative flashcards and shared study notes for students.",
+    "size": 24.8,
+    "reviews": 4100,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&q=80&w=200&h=200",
+    "title": "EcoTrack",
+    "companyName": "Green Tech",
+    "description": "Measure and offset your personal carbon footprint.",
+    "size": 17.2,
+    "reviews": 1100,
+    "ratingAvg": 4.7,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 700 }
+    ]
+  }
+]
