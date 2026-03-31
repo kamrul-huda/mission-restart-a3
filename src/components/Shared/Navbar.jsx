@@ -69,14 +69,14 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1">
             <img
               onClick={() => navigate("/")}
               src={logo}
               alt="Hero Logo"
               class="w-10 h-10"
             />
-            <h1 className="text-2xl font-bold bg-gradient-to-tr from-[#6C4CF1] to-[#8B6CF6] bg-clip-text text-transparent">
+            <h1 className="hidden md:block text-2xl font-bold bg-gradient-to-tr from-[#6C4CF1] to-[#8B6CF6] bg-clip-text text-transparent">
               HERO.IO
             </h1>
           </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn border-none my-auto text-white font-semibold text-lg px-6 bg-gradient-to-r from-[#7C3AED] to-[#A855F7] hover:from-[#6D28D9] hover:to-[#9333EA] shadow-md transition-all">
+          <a className="btn border-none my-auto text-white font-semibold text-lg px-2 md:px-6 bg-gradient-to-r from-[#7C3AED] to-[#A855F7] hover:from-[#6D28D9] hover:to-[#9333EA] shadow-md transition-all">
             <span className="text-2xl mr-2">
               <img src={contributeIcon} alt="" />
             </span>

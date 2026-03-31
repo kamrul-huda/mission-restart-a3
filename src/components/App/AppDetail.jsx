@@ -29,7 +29,7 @@ const AppDetail = () => {
     <div className="bg-gray-100 min-h-screen">
       <div className="mx-auto pt-6  w-[70%]">
         <div className="bg-base-100 flex flex-col md:flex-row gap-6 items-center p-4 sm:p-6 rounded-lg shadow-md">
-          <div className="h-full bg-base-600 w-full  md:w-2/5">
+          <div className="h-full bg-base-600 w-full  md:w-3/9">
             <img
               src={appData.image || "https://via.placeholder.com/150"}
               alt={appData.title}
@@ -37,7 +37,7 @@ const AppDetail = () => {
             />
           </div>
 
-          <div className="flex flex-col justify-start gap-4 w-full md:w-3/5">
+          <div className="flex flex-col justify-start gap-4 w-full md:w-6/9">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">
               {appData.title}
             </h2>
@@ -50,7 +50,7 @@ const AppDetail = () => {
 
             <div className="divider my-2"></div>
 
-            <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 text-center sm:text-left">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 text-center sm:text-left">
               <div className="flex flex-col items-center sm:items-start">
                 <Download className="h-8 w-8 text-success mb-1" />
                 <p className="text-sm text-gray-500">Downloads</p>
