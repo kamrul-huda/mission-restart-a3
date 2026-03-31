@@ -29,15 +29,15 @@ const AppDetail = () => {
     <div className="bg-gray-100 min-h-screen">
       <div className="mx-auto pt-6  w-[70%]">
         <div className="bg-base-100 flex flex-col md:flex-row gap-6 items-center p-4 sm:p-6 rounded-lg shadow-md">
-          <div className="h-full bg-base-600  w-1/5">
+          <div className="h-full bg-base-600 w-full  md:w-2/5">
             <img
               src={appData.image || "https://via.placeholder.com/150"}
               alt={appData.title}
-              className="w-full rounded-lg"
+              className="w-full rounded-lg object-cover"
             />
           </div>
 
-          <div className="flex flex-col justify-start gap-4 w-4/5">
+          <div className="flex flex-col justify-start gap-4 w-full md:w-3/5">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">
               {appData.title}
             </h2>
